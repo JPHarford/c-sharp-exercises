@@ -16,11 +16,16 @@ class Result
 {
 
     /*
+        NOTE: This is edited from the original formulation that
+        included a superfluous parameter n in the signature for
+        dynamicArray().  
+    */
+    
+    /*
      * Complete the 'dynamicArray' function below.
      *
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts following parameters:
-     *  1. INTEGER n
      *  2. 2D_INTEGER_ARRAY queries
      */
 
