@@ -23,9 +23,7 @@ class Result
         List<int> resultant = new List<int>(queries.Count);
         
         for(int i = 0; i < queries.Count; i++)
-        {
             resultant.Add(strings.FindAll(queries[i].Equals).Count);
-        }
         
         return resultant;
     }
