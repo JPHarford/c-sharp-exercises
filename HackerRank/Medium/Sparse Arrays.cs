@@ -22,8 +22,13 @@ class Result
     {
         List<int> resultant = new List<int>(queries.Count);
         
+            
+        // Emphasizing the Sparse Array quality
+        // We don't construct a list if we have 0 elements
         for(int i = 0; i < queries.Count; i++)
-            resultant.Add(strings.FindAll(queries[i].Equals).Count);
+            if(strings.Contains(queries[i]))
+                resultant.Add(strings.FindAll(queries[i].Equals).Count);
+            else resultant.Add(0);
         
         return resultant;
     }
