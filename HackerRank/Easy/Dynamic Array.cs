@@ -1,3 +1,5 @@
+// Problem URL: https://www.hackerrank.com/challenges/dynamic-array/problem
+
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
